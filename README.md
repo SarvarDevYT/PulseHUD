@@ -1,40 +1,266 @@
-# PulseHUD
+# ⚡ PulseHUD – Next Generation Immersive HUD
 
-A fully customizable Minecraft HUD mod for Fabric, supporting **1.20.1** and **1.21.11**.
+PulseHUD is a modern, animated, and highly customizable HUD overhaul for Minecraft Fabric. It completely replaces the vanilla HUD with a smooth, immersive, and dynamic interface inspired by modern game UI design while remaining lightweight and performance-friendly.
 
-## Features
+`1.0.0` `MIT License`
 
-- **Custom Health Bar** — animated, Poison/Wither colors, absorption overlay
-- **Custom Hunger Bar** — animated, sprint chevrons, oxygen bar
-- **Custom Armor Display** — 4 vertical slots with durability
-- **Custom XP Bar** — gradient fill, level display
-- **Custom Hotbar** — glassmorphic, animated selection
-- **10 Corner Widgets** — FPS, Ping, Coords, Compass, Clock, Session Stats, Biome, Selected Item, Potion Effects, RTC
-- **5 Themes** — Neon, Vanilla+, Cyberpunk, Minimal Dark, RGB Reactive
-- **Biome Reactivity** — colors adapt to your environment
-- **Dynamic States** — Combat Mode, Idle Mode, Low Health Vignette, Water Overlay
-- **Hit Marker** — animated crosshair on hit
-- **Drag & Drop Edit Mode** — reposition/resize every element (I key)
-- **28 Config Options** — via ModMenu / Cloth Config
+---
 
-## Installation
+# O'zbek
 
-1. Install [Fabric Loader](https://fabricmc.net/)
-2. Install [Fabric API](https://modrinth.com/mod/fabric-api)
-3. Install [Cloth Config API](https://modrinth.com/mod/cloth-config)
-4. Install [ModMenu](https://modrinth.com/mod/modmenu)
-5. Download PulseHUD `.jar` from Releases and put it in `mods/`
+## ⚡ PulseHUD – Yangi Avlod Immersive HUD
 
-## Building
+**PulseHUD** Minecraft'ning standart HUD tizimini zamonaviy, animatsion va immersiv interfeys bilan almashtiradi. Mod harakatlaringizga, jang holatiga, biomga va o‘yin muhitiga moslashib ishlaydi.
 
-```bash
-# Select version
-switch-version.bat   # choose 1 (1.20.1) or 2 (1.21.11)
-gradlew build
-```
+---
 
-The built jar will be in `build/libs/`.
+## ✨ Asosiy imkoniyatlar
 
-## License
+### ❤️ Health Panel
 
-MIT
+* Animatsion sog'lik paneli
+* Poison va Wither ranglari
+* Absorption overlay
+* Past HP holatida yurak animatsiyasi
+
+### 🍖 Hunger Panel
+
+* Animatsion ochlik paneli
+* Hunger effekti ko'rsatkichlari
+* Sprint chevron animatsiyasi
+* Suv osti kislorod paneli
+
+### 🛡 Armor Panel
+
+* Vertikal armor slotlari
+* Item ikonkalari
+* Durability ko'rsatkichlari
+
+### ⭐ XP Panel
+
+* Gradient progress bar
+* Animatsion fill
+* Level ko'rsatkichi
+
+### 🎒 Modern Hotbar
+
+* Glassmorphism dizayn
+* Animatsion slot highlight
+* Zamonaviy ko‘rinish
+
+---
+
+## 🧩 Widget Tizimi
+
+10+ ta drag & drop widgetlar:
+
+* FPS
+* Ping
+* Coordinates
+* Compass
+* Clock
+* Biome
+* Session Stats
+* Selected Item
+* Potion Effects
+* RealTimeClockUz Integration
+
+Barcha widgetlarni:
+
+* ko‘chirish
+* o‘lchamini o‘zgartirish
+* yoqish/o‘chirish mumkin
+
+---
+
+## ⚔ Dynamic Effects
+
+### Combat Mode
+
+* Jang vaqtida maksimal ko‘rinish
+* Qizil vignette
+* HUD opacity 100%
+
+### Idle Mode
+
+* Faollik bo‘lmasa HUD xiralashadi
+* Minimalistik ko‘rinish
+
+### Low Health Effects
+
+* Pulsatsiyalovchi yuraklar
+* Qizil ogohlantirish effekti
+
+### Water Overlay
+
+* Suv ostida ko‘k effekt
+
+### Hit Marker
+
+* Zarba urilganda animatsion marker
+
+---
+
+## 🎨 Temalar
+
+* Neon (Default)
+* Vanilla+
+* Cyberpunk
+* Minimal Dark
+* RGB Reactive
+
+Biome asosida HUD ranglari avtomatik o‘zgaradi.
+
+---
+
+## 🔧 Edit Mode
+
+`I` tugmasi orqali:
+
+* Widgetlarni ko‘chirish
+* Resize qilish
+* Joylashuvni sozlash
+* Real-time preview
+
+---
+
+## 🔗 Integratsiyalar
+
+* ModMenu
+* Cloth Config
+* RealTimeClockUz
+
+Agar RealTimeClockUz o‘rnatilgan bo‘lsa, PulseHUD uning ma'lumotlarini avtomatik ravishda animatsion HUD widget sifatida ko‘rsatadi.
+
+---
+
+# English
+
+## ⚡ PulseHUD – Next Generation Immersive HUD
+
+PulseHUD completely replaces Minecraft's vanilla HUD with a modern, animated, and immersive interface. It dynamically reacts to combat, movement, biomes, health, and gameplay events to create a next-generation HUD experience.
+
+---
+
+## ✨ Features
+
+### ❤️ Health System
+
+* Animated health display
+* Poison & Wither effects
+* Absorption overlay
+* Low health heartbeat effects
+
+### 🍖 Hunger System
+
+* Animated hunger bar
+* Sprint indicators
+* Underwater oxygen display
+
+### 🛡 Armor System
+
+* Vertical armor slots
+* Durability indicators
+* Item icon rendering
+
+### ⭐ XP System
+
+* Gradient XP bar
+* Smooth animations
+* Level display
+
+### 🎒 Modern Hotbar
+
+* Glassmorphism design
+* Animated slot selection
+* Smooth transitions
+
+---
+
+## 🧩 Widget System
+
+Includes 10+ draggable widgets:
+
+* FPS
+* Ping
+* Coordinates
+* Compass
+* Clock
+* Biome
+* Session Stats
+* Selected Item
+* Potion Effects
+* RealTimeClockUz Integration
+
+Widgets can be moved, resized, enabled, or disabled individually.
+
+---
+
+## ⚔ Dynamic Effects
+
+### Combat Mode
+
+* Enhanced visibility
+* Red vignette
+* Full opacity HUD
+
+### Idle Mode
+
+* Automatic fading
+* Minimal cinematic appearance
+
+### Low Health Effects
+
+* Pulsing hearts
+* Warning effects
+
+### Water Overlay
+
+* Underwater visual effects
+
+### Hit Marker System
+
+* Animated hit confirmation
+
+---
+
+## 🎨 Themes
+
+* Neon
+* Vanilla+
+* Cyberpunk
+* Minimal Dark
+* RGB Reactive
+
+Biome-reactive coloring is fully supported.
+
+---
+
+## 🔧 Edit Mode
+
+Press **I** to:
+
+* Move widgets
+* Resize widgets
+* Customize layout
+* Preview changes in real time
+
+---
+
+## 🔗 Integrations
+
+* ModMenu
+* Cloth Config
+* RealTimeClockUz
+
+PulseHUD automatically detects and integrates with RealTimeClockUz, displaying multi-time clocks using PulseHUD's visual style and animation system.
+
+---
+
+## 🧑‍💻 Developer
+
+**SarvarDev**
+
+## 📜 License
+
+Licensed under **MIT License**.
