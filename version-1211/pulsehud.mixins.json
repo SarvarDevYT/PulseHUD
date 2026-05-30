@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.pulsehud.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "InGameHudMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "LivingEntityMixin",
+    "ExperienceBarMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

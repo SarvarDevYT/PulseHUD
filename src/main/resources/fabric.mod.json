@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "pulsehud",
+  "version": "${version}",
+  "name": "PulseHUD",
+  "description": "A modern, animated, immersive, and dynamic HUD overhaul mod for Minecraft.",
+  "authors": [
+    "SarvarDev"
+  ],
+  "contact": {
+    "homepage": "https://github.com/SarvarDev/pulsehud",
+    "sources": "https://github.com/SarvarDev/pulsehud"
+  },
+  "license": "MIT",
+  "icon": "assets/pulsehud/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pulsehud.PulseHUD"
+    ],
+    "client": [
+      "com.pulsehud.PulseHUDClient"
+    ],
+    "modmenu": [
+      "com.pulsehud.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "pulsehud.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.20.1",
+    "fabric-api": "*",
+    "cloth-config": ">=11.1.106"
+  }
+}
